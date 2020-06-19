@@ -9,6 +9,9 @@ jeszcze raz JEDEN GLOWNY DIV NA WSZYSTKO-->
   <mdb-container>
     <mdb-row>
       <mdb-col col="9">
+      <mdb-modal-title tag="h2" class="font-weight-bold my-3">
+        What is to do today?:
+      </mdb-modal-title>
         <planing
         v-for="(event,index) in planing"
         :time="event.time"
